@@ -3,6 +3,7 @@
 venv/
 env/
 ENV/
+ABTesting/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
