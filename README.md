@@ -11,6 +11,23 @@
 - Group balancing and validation
 - Supports time columns in `MM:SS.MS` format
 
+## Screenshots
+
+1. **Initial Page Load and Data Validation**
+![Initial Page Load and Data Validation](ss_InitialLoadScreen.png)
+
+2. **Group Distribution**
+![Group Distribution](ss_DataVisualizationGroup_Distribution.png)
+
+3. **Cumilative Mean of the Key Metric**
+![Cumilative Mean of the Metric](ss_Data_Viz-CumilativeMeanofMetric_by_Group.png)
+
+4. **Summary Statistics for the Key Metric**
+![Summary statistics for the Key Metric](ss_Data_viz-SummaryStats_forMetric.png)
+
+5. **Statistical Analysis and Conclusions**
+![Statistical Analysis and Conclusion](ss_DataViz_statAnalysis.png)
+
 ## Installation
 
 1. Clone the repository:
