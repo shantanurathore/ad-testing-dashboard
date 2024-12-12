@@ -138,9 +138,8 @@ def build_columnselection(df)-> Tuple[str, str]:
     return group_column, target_column
 
 
-"""
-Data Valdaition Functions
-"""
+
+#Data Valdaition Functions
 #Function to validate the data structure
 def validate_data_structure(df: pd.DataFrame, group_column: str, target_column: str) -> Dict[str,bool]:
     """
@@ -260,11 +259,8 @@ def display_validation_results(df: pd.DataFrame, group_column: str, target_colum
         st.success("Data validation successful!- groups are balanced")
         return True, df
 
-"""
-Data Visualization Functions
 
-"""
-
+#Data Visualization Functions
 #Violin chart for distribution comparision
 def create_distribution_plot(df: pd.DataFrame, group_column: str, target_column: str) -> go.Figure:
     """
@@ -508,9 +504,7 @@ def display_visualizations(df: pd.DataFrame, group_column: str, target_column: s
             - Sample sizes (n) shown for each group
         """)
 
-"""
-Statistical Analysis Functions
-"""
+#Statistical Analysis Functions
 def check_sample_size_requirements(df: pd.DataFrame, 
                                  group_column: str, 
                                  target_column: str,
