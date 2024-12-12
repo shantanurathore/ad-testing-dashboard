@@ -11,7 +11,7 @@
 - Group balancing and validation
 - Supports time columns in `MM:SS.MS` format
 
-##Coming Up Next
+## Coming Up Next
 
 -Deployment to Streamlit: Right now the app is not live due to issues with deployment on StreamLit. Howver, once resolved, I will share the app link.
 The code can be forked and deployed on a local installation and run. Since everything is in the Python program, it will execute. 
